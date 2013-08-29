@@ -27,7 +27,7 @@ bash "install ruby-build" do
 	code <<-EOH
 		sudo ./install.sh
 		cd ..
-		rm -rf ruby-build
+		sudo rm -rf ruby-build
 	EOH
 
 end	
