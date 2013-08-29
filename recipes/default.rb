@@ -1,7 +1,7 @@
 
 home = "/home/"+node["user"]
 
-%w{libssl-dev,gcc,libreadline-dev, zlibg-dev}.each do |pkg|
+%w{libssl-dev, gcc, libreadline-dev, zlibg-dev}.each do |pkg|
 	package pkg do
 		action :install
 	end
