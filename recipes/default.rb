@@ -19,6 +19,7 @@ git "ruby-build" do
 	repository "https://github.com/sstephenson/ruby-build.git"
 	action :sync
 	destination "/tmp/ruby-build"
+	revision "993b7c2b2d3e43fdb6e439ecf7f260687554f689"
 end
 
 bash "install ruby-build" do
