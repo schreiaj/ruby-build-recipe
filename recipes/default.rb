@@ -1,5 +1,5 @@
 
-home = "/home/"+node["user"]
+home = "/home/"+node["ruby-build"]["user"]
 
 ["libssl-dev", "gcc", "libreadline-dev", "zlib1g-dev"].each do |pkg|
 	package pkg do
